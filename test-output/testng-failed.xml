@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="orangeHrmProjectPages.userJobpage">
+        <methods>
+          <include name="groupmsg"/>
+          <include name="close"/>
+          <include name="resultTable"/>
+          <include name="jobtitle"/>
+          <include name="formPage"/>
+          <include name="conform"/>
+          <include name="addJobtilte"/>
+          <include name="mainTitle"/>
+          <include name="jobcontainer"/>
+          <include name="modifyform"/>
+          <include name="Launchpage"/>
+        </methods>
+      </class> <!-- orangeHrmProjectPages.userJobpage -->
+      <class name="orangeHrmProjectPages.validateTitlepage">
+        <methods>
+          <include name="aftermethod"/>
+          <include name="setup"/>
+          <include name="validateTitle"/>
+          <include name="launch"/>
+        </methods>
+      </class> <!-- orangeHrmProjectPages.validateTitlepage -->
+      <class name="orangeHrmProjectPages.adminPagem">
+        <methods>
+          <include name="paygradePage"/>
+          <include name="jobgradebuttn"/>
+          <include name="setUp"/>
+          <include name="gradedis"/>
+          <include name="close"/>
+          <include name="massage"/>
+          <include name="delete"/>
+          <include name="addForm"/>
+          <include name="submitbutton"/>
+          <include name="check"/>
+          <include name="topaygrades"/>
+        </methods>
+      </class> <!-- orangeHrmProjectPages.adminPagem -->
+      <class name="orangeHrmProjectPages.ValidateLoginpage">
+        <methods>
+          <include name="teardown"/>
+          <include name="OrangeLogin"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- orangeHrmProjectPages.ValidateLoginpage -->
+      <class name="orangeHrmProjectPages.JobPage">
+        <methods>
+          <include name="setUp"/>
+          <include name="Delete3"/>
+          <include name="close"/>
+          <include name="tojobcategries"/>
+        </methods>
+      </class> <!-- orangeHrmProjectPages.JobPage -->
+      <class name="orangeHrmProjectPages.EmployeeStatus">
+        <methods>
+          <include name="addStatus"/>
+          <include name="addemp"/>
+          <include name="deleteemp"/>
+          <include name="toempstatus"/>
+          <include name="close"/>
+          <include name="setUp"/>
+          <include name="submitemp"/>
+          <include name="empstatus"/>
+        </methods>
+      </class> <!-- orangeHrmProjectPages.EmployeeStatus -->
+      <class name="orangeHrmProjectPages.UsermanagementPage">
+        <methods>
+          <include name="adduserb"/>
+          <include name="Close"/>
+          <include name="systemUsers"/>
+          <include name="addbutton"/>
+          <include name="result"/>
+          <include name="Usermngment"/>
+          <include name="launch"/>
+        </methods>
+      </class> <!-- orangeHrmProjectPages.UsermanagementPage -->
+      <class name="orangeHrmProjectPages.OHRMBase">
+        <methods>
+          <include name="initialization"/>
+          <include name="setup"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- orangeHrmProjectPages.OHRMBase -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

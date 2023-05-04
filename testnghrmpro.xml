@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="orangeHrmProjectPages.LoginTestCases"/>
+      <class name="orangeHrmProjectPages.UsermanagementPage"/>
+      <class name="orangeHrmProjectPages.JobPage"/>
+      <class name="orangeHrmProjectPages.ValidateLoginpage"/>
+      <class name="orangeHrmProjectPages.adminPagem"/>
+      <class name="orangeHrmProjectPages.userJobpage"/>
+      <class name="orangeHrmProjectPages.EmployeeStatus"/>
+      <class name="orangeHrmProjectPages.OHRMBase"/>
+      <class name="orangeHrmProjectPages.validateTitlepage"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
